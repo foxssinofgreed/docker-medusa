@@ -43,7 +43,6 @@ services:
     environment:
       NODE_OPTIONS: --openssl-legacy-provider
 
-  #Need to change this part
   storefront:
     build:
       context: ./storefront
